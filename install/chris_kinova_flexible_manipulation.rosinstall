@@ -1,4 +1,8 @@
 - git: {
+    local-name: src/chris_kinova_flexible_manipulation,
+    uri: 'https://github.com/jlbabilino/chris_kinova_flexible_manipulation.git',
+    version: kinetic-fixes }
+- git: {
     local-name: src/chris_kinova_bringup,
     uri: 'https://github.com/jlbabilino/chris_kinova_bringup.git',
     version: upstream-conversion }
