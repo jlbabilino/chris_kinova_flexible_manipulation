@@ -22,6 +22,10 @@ This script can be applied to an existing workspace if desired.
 This will clone all of the necessary packages for our demonstration.
 After the script completes, do a `catkin build` and re-source the environment setup before running the programs.
 
+### Extra Packages Needed
+
+Kinova ROS requires some [additional packages](https://github.com/Kinovarobotics/kinova-ros/tree/melodic-devel/kinova_moveit#installation) for MoveIt!.
+
 ## Usage
 -------
 
@@ -33,7 +37,7 @@ After the script completes, do a `catkin build` and re-source the environment se
 roscore
 roslaunch gazebo_ros empty_world.launch
 roslaunch chris_kinova_bringup chris_kinova_lab_gazebo.launch
-roslaunch chris_kinova_bringup chris_kinova_moveit_gazebo.launch
+roslaunch chris_kinova_bringup chris_kinova_moveit_gazebo_demo.launch
 roslaunch chris_kinova_flexible_manipulation chris_kinova_behavior_testing.launch
 </pre>
 
